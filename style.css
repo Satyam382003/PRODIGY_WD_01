@@ -1,0 +1,42 @@
+.carousel_image{
+    min-width: 100vw;
+    height: 20vw;
+    object-fit: cover;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.info-image1{
+    width: 100vw;
+    height: 10vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.bw{
+    filter: grayscale(100%);
+
+}
+.download1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+.info-image2{
+    width: 100vw;
+    height: 10vw;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    margin-top: 3vw;
+}
+.download2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vw; 
+}
